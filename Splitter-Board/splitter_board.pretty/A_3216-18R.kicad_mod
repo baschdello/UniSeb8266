@@ -1,0 +1,51 @@
+(footprint "A_3216-18R" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "<b>Chip Capacitor Type KEMET A / EIA 3216-18 reflow solder</b><p>KEMET S / EIA 3216-12")
+  (fp_text reference "REF**" (at -1.95 -1) (layer "F.SilkS")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp 3b7d72df-2f46-4e40-9f69-eea1bda89a6a)
+  )
+  (fp_text value "A_3216-18R" (at -1.95 2.325) (layer "F.Fab")
+      (effects (font (size 1.1684 1.1684) (thickness 0.1016)) (justify left bottom))
+    (tstamp e1a61a6e-a27e-498a-b818-a9ad376b84e8)
+  )
+  (fp_line (start -1.45 -0.6) (end 1.45 -0.6)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp f06d4793-2a12-4f0c-9e81-aaa6d4eeb7aa))
+  (fp_line (start -1.45 0.6) (end -1.45 -0.6)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 1e8df5ab-fae1-4bc0-ab3f-ed81c878f81f))
+  (fp_line (start 1.45 -0.6) (end 1.45 0.6)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp b4a6c738-7737-4bb3-83ef-32ea46870591))
+  (fp_line (start 1.45 0.6) (end -1.45 0.6)
+    (stroke (width 0.1016) (type solid)) (layer "F.Fab") (tstamp 66d9dadc-a686-4533-9c5b-5e2a33f262a6))
+  (fp_poly
+    (pts
+      (xy -1.6 0.6)
+      (xy -1.475 0.6)
+      (xy -1.475 -0.6)
+      (xy -1.6 -0.6)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 0a6b1465-debe-401a-ae70-b0264ccb9223))
+  (fp_poly
+    (pts
+      (xy 0.8 0.625)
+      (xy 1.1 0.625)
+      (xy 1.1 -0.625)
+      (xy 0.8 -0.625)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp 8eb387ae-ac32-40b4-b39b-d69246b1e16f))
+  (fp_poly
+    (pts
+      (xy 1.475 0.6)
+      (xy 1.6 0.6)
+      (xy 1.6 -0.6)
+      (xy 1.475 -0.6)
+    )
+
+    (stroke (width 0) (type default)) (fill solid) (layer "F.Fab") (tstamp e29afd09-6b60-4cb5-90a0-16ef35ff1305))
+  (pad "+" smd rect (at 1.375 0) (size 1.95 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 0) (tstamp 987284e3-f206-4402-8f6f-8ff1812b000a))
+  (pad "-" smd rect (at -1.375 0) (size 1.95 1.5) (layers "F.Cu" "F.Paste" "F.Mask")
+    (solder_mask_margin 0.0508) (thermal_bridge_angle 0) (tstamp 89dcfee7-b75d-40d2-8e65-f5f8fbed5bad))
+)
