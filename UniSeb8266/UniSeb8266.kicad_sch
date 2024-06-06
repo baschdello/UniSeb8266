@@ -5490,7 +5490,7 @@
   (symbol (lib_id "UniSeb8266-eagle-import:SJ2W") (at 96.52 53.34 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad768fa4-0849-4fbc-8dc0-9b16f7281e7e)
-    (property "Reference" "SJ2" (at 93.98 53.721 0)
+    (property "Reference" "SJ1" (at 93.98 50.8 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "SJ2W" (at 93.98 51.435 0)
@@ -5508,7 +5508,7 @@
     (instances
       (project "UniSeb8266"
         (path "/7f528db3-ace1-4a57-b27a-eb0bf0e98f2a"
-          (reference "SJ2") (unit 1)
+          (reference "SJ1") (unit 1)
         )
       )
     )
